@@ -1,7 +1,7 @@
 import rclpy
 from rclpy.node import Node
 from std_msgs.msg import Float32MultiArray, String
-from sequences import saludo, movimiento_par # Importar secuencias externas
+from robot.sequences import saludo, movimiento_par # Importar secuencias externas
 
 class SequenceNode(Node):
     def __init__(self):

@@ -1,5 +1,6 @@
 # sequences.py
 
+
 def saludo():
     """Secuencia de saludo ya existente"""
     seq = []
