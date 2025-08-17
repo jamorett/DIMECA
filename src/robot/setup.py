@@ -22,7 +22,7 @@ setup(
         'console_scripts': [
             # aquí registramos tu nodo
             'servo_node = robot.servo_node:main',
-            'sequence_node = robot.sequence_node:main'
+            'sequence_node = robot.sequence_node:main',
         ],
     },
 )
