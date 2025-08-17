@@ -1,0 +1,161 @@
+.
+├── build
+│   ├── COLCON_IGNORE
+│   └── robot
+│       ├── ament_cmake_core
+│       │   ├── package.cmake
+│       │   ├── robotConfig.cmake
+│       │   ├── robotConfig-version.cmake
+│       │   └── stamps
+│       │       ├── ament_prefix_path.sh.stamp
+│       │       ├── nameConfig.cmake.in.stamp
+│       │       ├── nameConfig-version.cmake.in.stamp
+│       │       ├── package_xml_2_cmake.py.stamp
+│       │       ├── package.xml.stamp
+│       │       ├── path.sh.stamp
+│       │       └── templates_2_cmake.py.stamp
+│       ├── ament_cmake_environment_hooks
+│       │   ├── ament_prefix_path.dsv
+│       │   ├── local_setup.bash
+│       │   ├── local_setup.dsv
+│       │   ├── local_setup.sh
+│       │   ├── local_setup.zsh
+│       │   ├── package.dsv
+│       │   └── path.dsv
+│       ├── ament_cmake_index
+│       │   └── share
+│       │       └── ament_index
+│       │           └── resource_index
+│       │               ├── package_run_dependencies
+│       │               │   └── robot
+│       │               ├── packages
+│       │               │   └── robot
+│       │               └── parent_prefix_path
+│       │                   └── robot
+│       ├── ament_cmake_package_templates
+│       │   └── templates.cmake
+│       ├── ament_cmake_uninstall_target
+│       │   └── ament_cmake_uninstall_target.cmake
+│       ├── ament_lint_cmake
+│       ├── ament_xmllint
+│       ├── cmake_args.last
+│       ├── CMakeCache.txt
+│       ├── CMakeFiles
+│       │   ├── 3.22.1
+│       │   │   ├── CMakeCCompiler.cmake
+│       │   │   ├── CMakeCXXCompiler.cmake
+│       │   │   ├── CMakeDetermineCompilerABI_C.bin
+│       │   │   ├── CMakeDetermineCompilerABI_CXX.bin
+│       │   │   ├── CMakeSystem.cmake
+│       │   │   ├── CompilerIdC
+│       │   │   │   ├── a.out
+│       │   │   │   ├── CMakeCCompilerId.c
+│       │   │   │   └── tmp
+│       │   │   └── CompilerIdCXX
+│       │   │       ├── a.out
+│       │   │       ├── CMakeCXXCompilerId.cpp
+│       │   │       └── tmp
+│       │   ├── cmake.check_cache
+│       │   ├── CMakeDirectoryInformation.cmake
+│       │   ├── CMakeOutput.log
+│       │   ├── CMakeRuleHashes.txt
+│       │   ├── CMakeTmp
+│       │   ├── Makefile2
+│       │   ├── Makefile.cmake
+│       │   ├── progress.marks
+│       │   ├── robot_uninstall.dir
+│       │   │   ├── build.make
+│       │   │   ├── cmake_clean.cmake
+│       │   │   ├── compiler_depend.make
+│       │   │   ├── compiler_depend.ts
+│       │   │   ├── DependInfo.cmake
+│       │   │   └── progress.make
+│       │   ├── TargetDirectories.txt
+│       │   └── uninstall.dir
+│       │       ├── build.make
+│       │       ├── cmake_clean.cmake
+│       │       ├── compiler_depend.make
+│       │       ├── compiler_depend.ts
+│       │       ├── DependInfo.cmake
+│       │       └── progress.make
+│       ├── cmake_install.cmake
+│       ├── colcon_build.rc
+│       ├── colcon_command_prefix_build.sh
+│       ├── colcon_command_prefix_build.sh.env
+│       ├── CTestConfiguration.ini
+│       ├── CTestCustom.cmake
+│       ├── CTestTestfile.cmake
+│       ├── install_manifest.txt
+│       └── Makefile
+├── install
+│   ├── COLCON_IGNORE
+│   ├── local_setup.bash
+│   ├── local_setup.ps1
+│   ├── local_setup.sh
+│   ├── _local_setup_util_ps1.py
+│   ├── _local_setup_util_sh.py
+│   ├── local_setup.zsh
+│   ├── robot
+│   │   └── share
+│   │       ├── ament_index
+│   │       │   └── resource_index
+│   │       │       ├── package_run_dependencies
+│   │       │       │   └── robot
+│   │       │       ├── packages
+│   │       │       │   └── robot
+│   │       │       └── parent_prefix_path
+│   │       │           └── robot
+│   │       ├── colcon-core
+│   │       │   └── packages
+│   │       │       └── robot
+│   │       └── robot
+│   │           ├── cmake
+│   │           │   ├── robotConfig.cmake
+│   │           │   └── robotConfig-version.cmake
+│   │           ├── environment
+│   │           │   ├── ament_prefix_path.dsv
+│   │           │   ├── ament_prefix_path.sh
+│   │           │   ├── path.dsv
+│   │           │   └── path.sh
+│   │           ├── hook
+│   │           │   ├── cmake_prefix_path.dsv
+│   │           │   ├── cmake_prefix_path.ps1
+│   │           │   └── cmake_prefix_path.sh
+│   │           ├── local_setup.bash
+│   │           ├── local_setup.dsv
+│   │           ├── local_setup.sh
+│   │           ├── local_setup.zsh
+│   │           ├── package.bash
+│   │           ├── package.dsv
+│   │           ├── package.ps1
+│   │           ├── package.sh
+│   │           ├── package.xml
+│   │           └── package.zsh
+│   ├── setup.bash
+│   ├── setup.ps1
+│   ├── setup.sh
+│   └── setup.zsh
+├── log
+│   ├── build_2025-08-17_17-32-05
+│   │   ├── events.log
+│   │   ├── logger_all.log
+│   │   └── robot
+│   │       ├── command.log
+│   │       ├── stderr.log
+│   │       ├── stdout.log
+│   │       ├── stdout_stderr.log
+│   │       └── streams.log
+│   ├── COLCON_IGNORE
+│   ├── latest -> latest_build
+│   └── latest_build -> build_2025-08-17_17-32-05
+├── output.txt
+├── README.md
+└── src
+    └── robot
+        ├── CMakeLists.txt
+        ├── include
+        │   └── robot
+        ├── package.xml
+        └── src
+
+49 directories, 109 files

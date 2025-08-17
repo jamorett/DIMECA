@@ -1,0 +1,15 @@
+/home/jamorett/DIMECA/install/robot/share/ament_index/resource_index/package_run_dependencies/robot
+/home/jamorett/DIMECA/install/robot/share/ament_index/resource_index/parent_prefix_path/robot
+/home/jamorett/DIMECA/install/robot/share/robot/environment/ament_prefix_path.sh
+/home/jamorett/DIMECA/install/robot/share/robot/environment/ament_prefix_path.dsv
+/home/jamorett/DIMECA/install/robot/share/robot/environment/path.sh
+/home/jamorett/DIMECA/install/robot/share/robot/environment/path.dsv
+/home/jamorett/DIMECA/install/robot/share/robot/local_setup.bash
+/home/jamorett/DIMECA/install/robot/share/robot/local_setup.sh
+/home/jamorett/DIMECA/install/robot/share/robot/local_setup.zsh
+/home/jamorett/DIMECA/install/robot/share/robot/local_setup.dsv
+/home/jamorett/DIMECA/install/robot/share/robot/package.dsv
+/home/jamorett/DIMECA/install/robot/share/ament_index/resource_index/packages/robot
+/home/jamorett/DIMECA/install/robot/share/robot/cmake/robotConfig.cmake
+/home/jamorett/DIMECA/install/robot/share/robot/cmake/robotConfig-version.cmake
+/home/jamorett/DIMECA/install/robot/share/robot/package.xml
