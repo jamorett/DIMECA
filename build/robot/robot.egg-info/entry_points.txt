@@ -1,0 +1,3 @@
+[console_scripts]
+sequence_node = robot.sequence_node:main
+servo_node = robot.servo_node:main

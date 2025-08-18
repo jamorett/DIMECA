@@ -1,0 +1,32 @@
+[1.471s] Invoking command in '/home/pi/DIMECA/src/robot': PYTHONPATH=/home/pi/DIMECA/build/robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/DIMECA/install/robot/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot build --build-base /home/pi/DIMECA/build/robot/build install --record /home/pi/DIMECA/build/robot/install.log --single-version-externally-managed install_data
+[1.775s] running egg_info
+[1.776s] creating ../../build/robot/robot.egg-info
+[1.794s] writing ../../build/robot/robot.egg-info/PKG-INFO
+[1.795s] writing dependency_links to ../../build/robot/robot.egg-info/dependency_links.txt
+[1.795s] writing entry points to ../../build/robot/robot.egg-info/entry_points.txt
+[1.795s] writing requirements to ../../build/robot/robot.egg-info/requires.txt
+[1.795s] writing top-level names to ../../build/robot/robot.egg-info/top_level.txt
+[1.795s] writing manifest file '../../build/robot/robot.egg-info/SOURCES.txt'
+[1.834s] reading manifest file '../../build/robot/robot.egg-info/SOURCES.txt'
+[1.835s] writing manifest file '../../build/robot/robot.egg-info/SOURCES.txt'
+[1.835s] running build
+[1.835s] running build_py
+[1.835s] creating /home/pi/DIMECA/build/robot/build
+[1.836s] creating /home/pi/DIMECA/build/robot/build/lib
+[1.836s] creating /home/pi/DIMECA/build/robot/build/lib/robot
+[1.836s] copying robot/servo_node.py -> /home/pi/DIMECA/build/robot/build/lib/robot
+[1.836s] copying robot/__init__.py -> /home/pi/DIMECA/build/robot/build/lib/robot
+[1.836s] running install
+[1.845s] running install_lib
+[1.865s] creating /home/pi/DIMECA/install/robot/lib/python3.12/site-packages/robot
+[1.865s] copying /home/pi/DIMECA/build/robot/build/lib/robot/servo_node.py -> /home/pi/DIMECA/install/robot/lib/python3.12/site-packages/robot
+[1.865s] copying /home/pi/DIMECA/build/robot/build/lib/robot/__init__.py -> /home/pi/DIMECA/install/robot/lib/python3.12/site-packages/robot
+[1.866s] byte-compiling /home/pi/DIMECA/install/robot/lib/python3.12/site-packages/robot/servo_node.py to servo_node.cpython-312.pyc
+[1.867s] byte-compiling /home/pi/DIMECA/install/robot/lib/python3.12/site-packages/robot/__init__.py to __init__.cpython-312.pyc
+[1.868s] running install_data
+[1.868s] running install_egg_info
+[1.889s] Copying ../../build/robot/robot.egg-info to /home/pi/DIMECA/install/robot/lib/python3.12/site-packages/robot-0.0.0-py3.12.egg-info
+[1.890s] running install_scripts
+[2.036s] Installing servo_node script to /home/pi/DIMECA/install/robot/lib/robot
+[2.036s] writing list of installed files to '/home/pi/DIMECA/build/robot/install.log'
+[2.124s] Invoked command in '/home/pi/DIMECA/src/robot' returned '0': PYTHONPATH=/home/pi/DIMECA/build/robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/DIMECA/install/robot/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot build --build-base /home/pi/DIMECA/build/robot/build install --record /home/pi/DIMECA/build/robot/install.log --single-version-externally-managed install_data
