@@ -34,6 +34,8 @@ class SequenceNode(Node):
             self.sequence, self.timer_period = run_sequence()
         elif name == 'home':
             self.sequence, self.timer_period = home()
+        elif name == 'choca_5':
+            self.sequence, self.timer_period = choca_5()
         else:
             self.get_logger().warn(f"Secuencia desconocida: {name}")
             return

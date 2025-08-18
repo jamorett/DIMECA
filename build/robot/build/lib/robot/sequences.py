@@ -25,7 +25,7 @@ def home():
     posiciones_iniciales = {
         0: 0,
         2: 180,
-        4: 0,
+        4: 180,
         6: 0,
         8: 150
     }
@@ -43,6 +43,43 @@ def home():
     speed = 0.05
     return seq, speed
 
+def choca_5():
+    seq=[]
+    """
+    Secuencia de choque de los 5 con ambos brazos:
+    - Channel 2 y 6 se mueven simultáneamente
+    """
+    # Inicializar I2C y PCA9685
+    i2c = busio.I2C(SCL, SDA)
+    pca = PCA9685(i2c)
+    pca.frequency = 50
+
+    # Función para convertir ángulo a duty_cycle
+    def angle_to_duty_cycle(angle, min_us=500, max_us=2500):
+        us_per_tick = 1000000 / (pca.frequency * 65536)
+        pulse_us = min_us + (angle / 180.0) * (max_us - min_us)
+        return int(pulse_us / us_per_tick)
+
+    # Paso 1: channel 2 -> 15°, channel 6 -> 175°
+    pca.channels[2].duty_cycle = angle_to_duty_cycle(15)
+    pca.channels[6].duty_cycle = angle_to_duty_cycle(175)
+    time.sleep(2)
+
+    # Paso 2: channel 2 -> 40°, channel 6 -> 150°
+    pca.channels[2].duty_cycle = angle_to_duty_cycle(40)
+    pca.channels[6].duty_cycle = angle_to_duty_cycle(150)
+    time.sleep(1.5)
+
+    # Paso 3: channel 2 -> 180°, channel 6 -> 0°
+    pca.channels[2].duty_cycle = angle_to_duty_cycle(180)
+    pca.channels[6].duty_cycle = angle_to_duty_cycle(0)
+
+    # Liberar PCA9685 al final
+    pca.deinit()
+
+    print("✅ Secuencia de choque completada")
+    speed=0.05
+    return seq, speed
 
 def saludo():
     """
@@ -84,7 +121,6 @@ def saludo():
     pca.deinit()
     speed = 0.05
     return seq, speed
-
 
 def movimiento_par():
     """

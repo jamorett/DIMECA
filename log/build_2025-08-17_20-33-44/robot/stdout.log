@@ -1,0 +1,29 @@
+running egg_info
+writing ../../build/robot/robot.egg-info/PKG-INFO
+writing dependency_links to ../../build/robot/robot.egg-info/dependency_links.txt
+writing entry points to ../../build/robot/robot.egg-info/entry_points.txt
+writing requirements to ../../build/robot/robot.egg-info/requires.txt
+writing top-level names to ../../build/robot/robot.egg-info/top_level.txt
+reading manifest file '../../build/robot/robot.egg-info/SOURCES.txt'
+writing manifest file '../../build/robot/robot.egg-info/SOURCES.txt'
+running build
+running build_py
+copying robot/sequence_node.py -> /home/pi/DIMECA/build/robot/build/lib/robot
+copying robot/servo_node.py -> /home/pi/DIMECA/build/robot/build/lib/robot
+copying robot/sequences.py -> /home/pi/DIMECA/build/robot/build/lib/robot
+running install
+running install_lib
+copying /home/pi/DIMECA/build/robot/build/lib/robot/sequence_node.py -> /home/pi/DIMECA/install/robot/lib/python3.12/site-packages/robot
+copying /home/pi/DIMECA/build/robot/build/lib/robot/servo_node.py -> /home/pi/DIMECA/install/robot/lib/python3.12/site-packages/robot
+copying /home/pi/DIMECA/build/robot/build/lib/robot/sequences.py -> /home/pi/DIMECA/install/robot/lib/python3.12/site-packages/robot
+byte-compiling /home/pi/DIMECA/install/robot/lib/python3.12/site-packages/robot/sequence_node.py to sequence_node.cpython-312.pyc
+byte-compiling /home/pi/DIMECA/install/robot/lib/python3.12/site-packages/robot/servo_node.py to servo_node.cpython-312.pyc
+byte-compiling /home/pi/DIMECA/install/robot/lib/python3.12/site-packages/robot/sequences.py to sequences.cpython-312.pyc
+running install_data
+running install_egg_info
+removing '/home/pi/DIMECA/install/robot/lib/python3.12/site-packages/robot-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/robot/robot.egg-info to /home/pi/DIMECA/install/robot/lib/python3.12/site-packages/robot-0.0.0-py3.12.egg-info
+running install_scripts
+Installing sequence_node script to /home/pi/DIMECA/install/robot/lib/robot
+Installing servo_node script to /home/pi/DIMECA/install/robot/lib/robot
+writing list of installed files to '/home/pi/DIMECA/build/robot/install.log'
