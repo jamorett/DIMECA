@@ -1,0 +1,47 @@
+[0.000000] (-) TimerEvent: {}
+[0.000307] (robot) JobQueued: {'identifier': 'robot', 'dependencies': OrderedDict()}
+[0.000791] (robot) JobStarted: {'identifier': 'robot'}
+[0.099647] (-) TimerEvent: {}
+[0.199968] (-) TimerEvent: {}
+[0.300293] (-) TimerEvent: {}
+[0.400696] (-) TimerEvent: {}
+[0.501008] (-) TimerEvent: {}
+[0.601323] (-) TimerEvent: {}
+[0.701631] (-) TimerEvent: {}
+[0.801920] (-) TimerEvent: {}
+[0.902154] (-) TimerEvent: {}
+[1.002464] (-) TimerEvent: {}
+[1.049058] (robot) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/robot', 'build', '--build-base', '/home/pi/DIMECA/build/robot/build', 'install', '--record', '/home/pi/DIMECA/build/robot/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/pi/DIMECA/src/robot', 'env': {'USER': 'pi', 'SSH_CLIENT': '192.168.100.89 39300 22', 'LC_TIME': 'C.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/home/pi', 'OLDPWD': '/home/pi/DIMECA/src/robot', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'C.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/pi/DIMECA/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'pi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'C.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'C.UTF-8', 'LC_TELEPHONE': 'C.UTF-8', 'AMENT_PREFIX_PATH': '/home/pi/DIMECA/install/robot:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'C.UTF-8', 'LC_MEASUREMENT': 'C.UTF-8', 'LC_IDENTIFICATION': 'C.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/pi/DIMECA/build/robot', 'SSH_CONNECTION': '192.168.100.89 39300 192.168.100.173 22', 'PYTHONPATH': '/home/pi/DIMECA/build/robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/DIMECA/install/robot/lib/python3.12/site-packages:/home/pi/DIMECA/install/robot/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'C.UTF-8', 'LC_PAPER': 'C.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/pi/DIMECA/install/robot'}, 'shell': False}
+[1.102577] (-) TimerEvent: {}
+[1.202988] (-) TimerEvent: {}
+[1.303298] (-) TimerEvent: {}
+[1.362449] (robot) StdoutLine: {'line': b'running egg_info\n'}
+[1.381304] (robot) StdoutLine: {'line': b'writing ../../build/robot/robot.egg-info/PKG-INFO\n'}
+[1.381700] (robot) StdoutLine: {'line': b'writing dependency_links to ../../build/robot/robot.egg-info/dependency_links.txt\n'}
+[1.382829] (robot) StdoutLine: {'line': b'writing entry points to ../../build/robot/robot.egg-info/entry_points.txt\n'}
+[1.383494] (robot) StdoutLine: {'line': b'writing requirements to ../../build/robot/robot.egg-info/requires.txt\n'}
+[1.384245] (robot) StdoutLine: {'line': b'writing top-level names to ../../build/robot/robot.egg-info/top_level.txt\n'}
+[1.403368] (-) TimerEvent: {}
+[1.424998] (robot) StdoutLine: {'line': b"reading manifest file '../../build/robot/robot.egg-info/SOURCES.txt'\n"}
+[1.425983] (robot) StdoutLine: {'line': b"writing manifest file '../../build/robot/robot.egg-info/SOURCES.txt'\n"}
+[1.426198] (robot) StdoutLine: {'line': b'running build\n'}
+[1.426320] (robot) StdoutLine: {'line': b'running build_py\n'}
+[1.426536] (robot) StdoutLine: {'line': b'copying robot/servo_node.py -> /home/pi/DIMECA/build/robot/build/lib/robot\n'}
+[1.427073] (robot) StdoutLine: {'line': b'running install\n'}
+[1.436532] (robot) StdoutLine: {'line': b'running install_lib\n'}
+[1.456245] (robot) StdoutLine: {'line': b'copying /home/pi/DIMECA/build/robot/build/lib/robot/servo_node.py -> /home/pi/DIMECA/install/robot/lib/python3.12/site-packages/robot\n'}
+[1.457174] (robot) StdoutLine: {'line': b'byte-compiling /home/pi/DIMECA/install/robot/lib/python3.12/site-packages/robot/servo_node.py to servo_node.cpython-312.pyc\n'}
+[1.458590] (robot) StdoutLine: {'line': b'running install_data\n'}
+[1.458762] (robot) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.480026] (robot) StdoutLine: {'line': b"removing '/home/pi/DIMECA/install/robot/lib/python3.12/site-packages/robot-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[1.480420] (robot) StdoutLine: {'line': b'Copying ../../build/robot/robot.egg-info to /home/pi/DIMECA/install/robot/lib/python3.12/site-packages/robot-0.0.0-py3.12.egg-info\n'}
+[1.481608] (robot) StdoutLine: {'line': b'running install_scripts\n'}
+[1.503439] (-) TimerEvent: {}
+[1.603725] (-) TimerEvent: {}
+[1.625548] (robot) StdoutLine: {'line': b'Installing sequence_node script to /home/pi/DIMECA/install/robot/lib/robot\n'}
+[1.625863] (robot) StdoutLine: {'line': b'Installing servo_node script to /home/pi/DIMECA/install/robot/lib/robot\n'}
+[1.627153] (robot) StdoutLine: {'line': b"writing list of installed files to '/home/pi/DIMECA/build/robot/install.log'\n"}
+[1.703938] (-) TimerEvent: {}
+[1.714957] (robot) CommandEnded: {'returncode': 0}
+[1.733772] (robot) JobEnded: {'identifier': 'robot', 'rc': 0}
+[1.734652] (-) EventReactorShutdown: {}

@@ -28,14 +28,18 @@ class SequenceNode(Node):
         # Seleccionar la secuencia y su velocidad
         if name == 'saludo':
             self.sequence, self.timer_period = saludo()
-        elif name == 'movimiento_par':
-            self.sequence, self.timer_period = movimiento_par()
-        elif name == 'run_sequence':
-            self.sequence, self.timer_period = run_sequence()
+        elif name == 'abrazo':
+            self.sequence, self.timer_period = abrazo()
+        elif name == 'brazos_arriba':
+            self.sequence, self.timer_period = brazos_arriba()
+        elif name == 'baile':
+            self.sequence, self.timer_period = baile()
         elif name == 'home':
             self.sequence, self.timer_period = home()
         elif name == 'choca_5':
             self.sequence, self.timer_period = choca_5()
+        elif name == 'wakeup':
+            self.sequence, self.timer_period = wakeup()
         else:
             self.get_logger().warn(f"Secuencia desconocida: {name}")
             return

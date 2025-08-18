@@ -20,7 +20,7 @@ class ServoNode(Node):
         self.posiciones_iniciales = {
             0: 0,
             2: 180,
-            4: 180,
+            4: 160,
             6: 0,
             8: 150
         }
